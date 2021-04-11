@@ -35,3 +35,4 @@ else:
     if dogrucevapsay<100:
         for k,v in hatasiklar.items():
            print(str(k) + ".soruyu " + str(v) + " diyerek hatalı cevapladınız, dogru cevap: " + cevaplist[k-1] + "\n")
+input("Herhangi bir tuşa basarak çıkabilirsiniz!")

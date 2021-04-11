@@ -28,9 +28,10 @@ while True:
             print("Bilginize, hatali giris sayınız: " + str(hataligiris))                
             hataligiris=0
         break
+input("Herhangi bir tuşa basarak devam edebilirsiniz!")
 
 # Question 2
-# Extra try buildng the same user login application but this time, use a dictionary!
+# Extra try building the same user login application but this time, use a dictionary!
 NamePass = {"Ozgur":"sifreozgur123", "Ahmet":"ahmet135", "Mehmet":"147mehmet"}
 hataligiris=0;
 girisdurum=False;
@@ -52,3 +53,4 @@ while True:
     else:
         hataligiris +=1    
         print("Giriş bilgileriniz hatalı, hatalı giriş sayısı: " + str(hataligiris) + " kalan hakkınız: " + str(3-hataligiris))
+input("Herhangi bir tuşa basarak çıkabilirsiniz!")       

@@ -6,6 +6,7 @@
 mylist=[0,1,2,3,4,5,6,7]
 mylist=mylist[int(len(mylist)/2):len(mylist)]+mylist[0:int(len(mylist)/2)]
 print(mylist)
+input("Herhangi bir tuşa basarak devam edebilirsiniz!")
 
 # Question 2 
 # Ask the user to input a single digit integer to a variable 'n'.
@@ -18,3 +19,4 @@ while n>9 or n<0:
   elif n<0:
     print("Hatalı giriş: negatif sayı girdiniz")
 print(list(range(0,n+1,2)))
+input("Herhangi bir tuşa basarak çıkabilirsiniz!")

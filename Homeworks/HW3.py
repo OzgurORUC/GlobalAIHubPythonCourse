@@ -48,4 +48,5 @@ for i1 in range(ogrencisay):
     studentinformation['passinggrade'] = passinggrade_int
     studentinformationlist.append(studentinformation)
 studentinformationlist.sort(key=lambda k : k['passinggrade'], reverse=True)   
-studentinformationlist
+print(studentinformationlist)
+input("Herhangi bir tuşa basarak çıkabilirsiniz!")
